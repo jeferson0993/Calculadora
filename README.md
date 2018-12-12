@@ -1,6 +1,8 @@
 # Calculadora
 Uma calculadora básica, com as 4 operações para pôr em prática o conteúdo da disciplina de programação básica para a web.
 
+Você pode ver o resultado do projeto em https://jeferson0993.github.io/Calculadora/
+
 
 ## Tecnologias Utilizadas
 
@@ -11,7 +13,7 @@ Uma calculadora básica, com as 4 operações para pôr em prática o conteúdo 
 
 ## Parceiros
 
-Veja também a list dos [contribuidores](https://github.com/jeferson0993/Calculadora/contributors) que participaram neste projeto.
+Veja também a lista dos [coautores](https://github.com/jeferson0993/Calculadora/contributors) que participaram deste projeto.
 
 
 ## Autor

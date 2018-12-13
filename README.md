@@ -33,4 +33,4 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 - [x] deploy
 - [X] código css
 - [ ] código javascript
-- [ ] código css > Responsividade
+- [ ] código css: Responsividade

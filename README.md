@@ -27,6 +27,18 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 
 ***
 
+
+
+
+
+
+
+
+
+
+
+
+
 ### Lista de coisas a fazer:
 
 - [x] código html
@@ -34,3 +46,4 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 - [X] código css
 - [ ] código javascript
 - [ ] código css: Responsividade
+

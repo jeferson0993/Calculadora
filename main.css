@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
     *{
         margin: 0;
         padding: 0;
@@ -57,10 +57,10 @@
         border-radius: 0 0 1ch 1ch;
     }
     #areaTeclado button {
-        padding: 2ch;
-        width: 10ch;
+        padding: 1ch;
+        width: 3ch;
         font-weight: bold;
-        font-size: 2vh;
+        font-size: 5ch;
         border-radius: 1ch;
     }
     #areaTeclado .margin-bottom {

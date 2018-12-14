@@ -26,8 +26,24 @@ Veja também a lista dos [coautores](https://github.com/jeferson0993/Calculadora
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
 ***
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Lista de coisas a fazer:
+
 - [x] código html
 - [x] deploy
-- [ ] código css
-- [ ] cófigo javascript
+- [X] código css
+- [ ] código javascript
+- [ ] código css: Responsividade
+

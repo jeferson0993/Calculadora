@@ -1,80 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-body {
-    background-color: rgb(246, 246, 246);
-}
-header {
-    background-color: #0B132B;
-    text-align: center;
-    color: rgb(255, 0, 25);
-    padding: 1ch;
-    margin-bottom: 1ch;
-    height: 10vh;
-}
-main {
-    height: 80vh;
-}
-#corpoDaCalculadora {
-    background-color: #3A506B;    
-    text-align: center;
-    font-style: oblique;
-    font-weight: bold;
-    padding: 3ch;
-    border-radius: 2ch;
-    margin: auto;
-    width: 600px;
-}
-#areaEntradaDadoVisor {
-    background-color: #3F88C5;
-    color: #ffffff;
-    font-size: 2vh;
-    padding: 3ch;
-    border-radius: 1ch 1ch 0 0;
-}
-#areaEntradaDadoVisor p {
-    text-align: left;
-    font-size: 2em;
-}
-#areaEntradaDadoVisor > #Visor {
-    padding: 1ch;
-    height: 5ch;
-    background-color: #3A506B;
-    color: #ffffff;
-    font-size: 3vh;    
-    text-align: right;  
-    
-}
-#areaTeclado {
-    background-color: #3F88C5;
-    padding: 3ch;
-    margin-top: 3ch;
-    border-radius: 0 0 1ch 1ch;
-}
-#areaTeclado button {
-    padding: 2ch;
-    width: 10ch;
-    font-weight: bold;
-    font-size: 2vh;
-    border-radius: 1ch;
-}
-#areaTeclado .margin-bottom {
-    margin-bottom: 1ch;
-}
-footer {
-    height: 7vh;
-    background-color: #0B132B;
-    color: #ffffff;
-    text-align: right;
-    margin-top: 2ch;
-    padding-top: 1ch;
-    padding-bottom: 1ch;
-    padding-right: 1ch;    
-}
-footer span a {
-    color: #D72638;
+@media screen and (min-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(246, 246, 246);
+    }
+    header {
+        background-color: #0B132B;
+        text-align: center;
+        color: rgb(255, 0, 25);
+        padding: 1ch;
+        margin-bottom: 1ch;
+        height: 10vh;
+    }
+    main {
+        height: 80vh;
+    }
+    #corpoDaCalculadora {
+        background-color: #3A506B;    
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+        padding: 3ch;
+        border-radius: 2ch;
+        margin: auto;
+        width: 600px;
+    }
+    #areaEntradaDadoVisor {
+        background-color: #3F88C5;
+        color: #ffffff;
+        font-size: 2vh;
+        padding: 3ch;
+        border-radius: 1ch 1ch 0 0;
+    }
+    #areaEntradaDadoVisor p {
+        text-align: left;
+        font-size: 2em;
+    }
+    #areaEntradaDadoVisor > #Visor {
+        padding: 1ch;
+        height: 5ch;
+        background-color: #3A506B;
+        color: #ffffff;
+        font-size: 3vh;    
+        text-align: right;  
+        
+    }
+    #areaTeclado {
+        background-color: #3F88C5;
+        padding: 3ch;
+        margin-top: 3ch;
+        border-radius: 0 0 1ch 1ch;
+    }
+    #areaTeclado button {
+        padding: 2ch;
+        width: 10ch;
+        font-weight: bold;
+        font-size: 2vh;
+        border-radius: 1ch;
+    }
+    #areaTeclado .margin-bottom {
+        margin-bottom: 1ch;
+    }
+    footer {
+        height: 7vh;
+        background-color: #0B132B;
+        color: #ffffff;
+        text-align: right;
+        margin-top: 2ch;
+        padding-top: 1ch;
+        padding-bottom: 1ch;
+        padding-right: 1ch;    
+    }
+    footer span a {
+        color: #D72638;
+    }
 }

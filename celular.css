@@ -80,9 +80,9 @@
     #areaTeclado .margin-bottom {
         margin-bottom: 1ch;
     }
-        footer {
-            height: 10vh;
-            background-color: #0B132B;
+    footer {
+        height: 10vh;
+        background-color: #0B132B;
         color: #ffffff;
         text-align: center;    
         padding-top: 1ch;
@@ -92,4 +92,12 @@
     footer span a {
         color: #D72638;
     }
+}
+
+@media (min-width: 480px) and (orientation: landscape) {
+    #areaEntradaDadoVisor,
+    #areaTeclado {
+        width: 70%;
+        margin: auto;
+    }    
 }

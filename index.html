@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Calculadora</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="celular.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <div id="areaEntradaDadoVisor">                
                 <p>Digite o valor:</p>                
                 <form name="form">
-                    <input id="Visor" name="textview">
+                    <input id="Visor" name="textview" readonly="true">
                   </form>
             </div>            
             <table id="areaTeclado">
@@ -32,29 +33,33 @@
                     <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
                     <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
                     <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
-                    <td><input class="button" type="button" value="+" onclick="insert('-')"></td>
+                    <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
                 </tr>
                 <tr>
                     <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
                     <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
                     <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
-                    <td><input class="button" type="button" value="-" onclick="insert('+')"></td>                    
+                    <td><input class="button" type="button" value="-" onclick="insert('-')"></td>                    
                 </tr>
                 <tr>
                     <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
                     <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
                     <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
-                    <td rowspan="2"><input style="height: 14ch" class="button" type="button" value="=" onclick="equal()"></td>
+                    <td rowspan="2">
+                        <input class="button button2Linhas" type="button" value="=" onclick="equal()">
+                    </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input style="width: 20ch" class="button" type="button" value="0" onclick="insert(0)"></td>
+                    <td colspan="2">
+                        <input class="button" type="button" value="0" onclick="insert(0)">
+                    </td>
                     <td><input class="button" type="button" value="." onclick="insert('.')"></td>                        
                 </tr>
             </table>                     
         </div>
     </main>
     <footer>
-        <p>&copy; Todos os direitos reservados a <span><a href="https://github.com/jeferson0993/">Jeferson Ferreira</a></span> - 2018 </p>
+        <p>&copy; Todos os direitos reservados a <span><a href="https://github.com/jeferson0993/Calculadora">Jeferson Ferreira</a></span> - 2018 </p>
     </footer>
 </body>
 </html>

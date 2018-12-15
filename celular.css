@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+@media screen and (max-width: 800px){
     *{
         margin: 0;
         padding: 0;
@@ -7,62 +7,62 @@
         box-sizing: border-box;
     }
     body {
+        height: 100vh;
         background-color: rgb(246, 246, 246);
     }
     header {
+        height: 10vh;
         background-color: #0B132B;
         text-align: center;
         color: rgb(255, 0, 25);
-        padding: 1ch;
-        margin-bottom: 1ch;
-        height: 10vh;
+        padding: 1ch;    
     }
-    header p {
-        display: block;
-        color: rgb(255, 0, 25);
+
+    header ,footer {
+        display: none;
     }
     main {
-        height: 80vh;
-        margin-bottom: 3ch;
+        height: 80vh;    
     }
     #corpoDaCalculadora {
         background-color: #3A506B;    
         text-align: center;
         font-style: oblique;
         font-weight: bold;
-        padding: 3ch;
-        border-radius: 2ch;
-        margin: auto;
-        width: 600px;
+        height: 100vh;
+        width: 100%;
+        padding: 1ch;    
+        margin: auto;    
     }
     #areaEntradaDadoVisor {
+        margin-top: .2em;
         background-color: #3F88C5;
-        color: #ffffff;
-        font-size: 2vh;
-        padding: 3ch;
+        color: #ffffff;    
+        font-size: 4vh;    
+        padding: 2ch;
         border-radius: 1ch 1ch 0 0;
     }
-    #areaEntradaDadoVisor input {
+    #areaEntradaDadoVisor input { 
+        width: 90%;      
+        font-size: .7em;        
         background: #3A506B;
         color: #ffffff;
-        text-align: right;
-        font-size: 2em;
-    }
-    #areaEntradaDadoVisor > #Visor {
+        text-align: right;        
         padding: 1ch;
-        height: 5ch;
+    }
+    #areaEntradaDadoVisor > #Visor { 
         background-color: #3A506B;
+        height: 2em;;
         color: #ffffff;
-        font-size: 3vh;    
-        text-align: right;  
-        
+        text-align: right;      
     }
     #areaTeclado {
-        background-color: #3F88C5;
-        width: 100%;        
-        padding: 3ch;
-        margin-top: 3ch;        
-        border-radius: 0 0 1ch 1ch;
+        height: 75%;
+        width: 100%;
+        background-color: #3F88C5;    
+        padding: 1ch;
+        margin-top: 1ch;
+        border-radius: 0 0 1ch 1ch;    
     }
     #areaTeclado .button {
         border: solid #3A506B 3px;
@@ -75,17 +75,16 @@
     #areaTeclado .button2Linhas {        
         border: solid #3A506B 3px;        
         margin: 0 auto;
-        padding: 8ex 0ex;
-    }
+        padding: 9.5ex 0ex;
+    }    
     #areaTeclado .margin-bottom {
-        margin-bottom: 1ch;        
+        margin-bottom: 1ch;
     }
-    footer {
-        height: 5vh;
-        background-color: #0B132B;
+        footer {
+            height: 10vh;
+            background-color: #0B132B;
         color: #ffffff;
-        text-align: right;
-        
+        text-align: center;    
         padding-top: 1ch;
         padding-bottom: 1ch;
         padding-right: 1ch;    

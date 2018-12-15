@@ -21,8 +21,7 @@
         color: rgb(255, 0, 25);
     }
     main {
-        height: 80vh;
-        margin-bottom: 3ch;
+        height: 85vh;        
         display: flex;        
         align-items: center;        
         justify-content: center;
@@ -34,15 +33,16 @@
         font-weight: bold;
         padding: 1ch;
         border-radius: 2ch;
-        margin: auto;        
+        margin: auto;
+        width: 480px;
     }
     #areaEntradaDadoVisor {
+        width: 100%;
+        padding: 1ch;     
         background-color: #3F88C5;
         color: #ffffff;
-        font-size: 2vh;
-        padding: 1ch;
-        border-radius: 1ch 1ch 0 0;
-        margin-bottom: 10ex;
+        font-size: 2vh;        
+        border-radius: 1ch 1ch 0 0;        
         border-bottom: .5em solid #3A506B;
     }
     #areaEntradaDadoVisor input {
@@ -63,8 +63,7 @@
     #areaTeclado {
         background-color: #3F88C5;
         width: 100%;        
-        padding: 1ch;
-        margin-top: 5ch;        
+        padding: 1ch;        
         border-radius: 0 0 1ch 1ch;
     }
     #areaTeclado .button {
@@ -84,14 +83,10 @@
         margin-bottom: 1ch;        
     }
     footer {
-        height: 10vh;
+        height: 5vh;
         background-color: #0B132B;
         color: #ffffff;
         text-align: right;
-        
-        padding-top: 1ch;
-        padding-bottom: 1ch;
-        padding-right: 1ch;    
     }
     footer span a {
         color: #D72638;

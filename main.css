@@ -40,6 +40,11 @@ main {
     text-align: left;
     font-size: 2em;
 }
+#areaEntradaDadoVisor input {
+    padding: .5ch;
+    text-align: right;
+    font-size: 2em;
+}
 #areaEntradaDadoVisor > #Visor {
     padding: 1ch;
     height: 5ch;
@@ -51,19 +56,29 @@ main {
 }
 #areaTeclado {
     background-color: #3F88C5;
+    width: 100%;
     padding: 3ch;
-    margin-top: 3ch;
+    margin: auto;
+    margin-top: 4ch;
     border-radius: 0 0 1ch 1ch;
+
+    display: flex;
+    justify-content: center;
 }
-#areaTeclado button {
+#areaTeclado .button {
     padding: 2ch;
-    width: 10ch;
+    min-width: 10ch;
     font-weight: bold;
     font-size: 2vh;
     border-radius: 1ch;
 }
 #areaTeclado .margin-bottom {
     margin-bottom: 1ch;
+}
+.ultimaLinha{
+    border: solid;
+    display: grid;    
+    grid-template-columns: auto auto auto;
 }
 footer {
     height: 7vh;

@@ -16,41 +16,41 @@
     <main>
         <div id="corpoDaCalculadora">
             <div id="areaEntradaDadoVisor">                
-                <p>Digite o valor:</p>
-                <p id="Visor"></p>
-            </div>
-            <div id="areaTeclado">
-                <div class="margin-bottom">
-                    <button id="limpar">C</button>
-                    <button id="parentese1">(</button>
-                    <button id="parentese2">)</button>
-                    <button id="botaoDivisao">/</button>
-                </div>
-                <div class="margin-bottom">
-                    <button id="sete">7</button>
-                    <button id="oito">8</button>
-                    <button id="nove">9</button>
-                    <button id="botaoMultiplicacao">*</button>
-                </div>
-                <div class="margin-bottom">
-                    <button id="quatro">4</button>
-                    <button id="cinco">5</button>
-                    <button id="seis">6</button>
-                    <button id="botaoSubtracao">-</button>
-                </div>
-                <div class="margin-bottom">
-                    <button id="um">1</button>
-                    <button id="dois">2</button>
-                    <button id="tres">3</button>
-                    <button id="botaoSoma">+</button>
-                </div>
-                <div>
-                    <button id="zero">0</button>
-                    <button id="ponto">.</button>
-                    <button id="maisMenos">+/-</button>
-                    <button id="botaoIgual">=</button>
-                </div>
-            </div>
+                <p>Digite o valor:</p>                
+                <form name="form">
+                    <input id="Visor" name="textview">
+                  </form>
+            </div>            
+            <table id="areaTeclado">
+                <tr>
+                    <td><input class="button" type="button" value="C" onclick="limpar()"></td>
+                    <td><input class="button" type="button" value="<" onclick="apagar()"></td>
+                    <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+                    <td><input class="button" type="button" value="x" onclick="insert('x')"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+                    <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+                    <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+                    <td><input class="button" type="button" value="+" onclick="insert('-')"></td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+                    <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+                    <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+                    <td><input class="button" type="button" value="-" onclick="insert('+')"></td>                    
+                </tr>
+                <tr>
+                    <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                    <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+                    <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+                    <td rowspan="2"><input style="height: 14ch" class="button" type="button" value="=" onclick="equal()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input style="width: 20ch" class="button" type="button" value="0" onclick="insert(0)"></td>
+                    <td><input class="button" type="button" value="." onclick="insert('.')"></td>                        
+                </tr>
+            </table>                     
         </div>
     </main>
     <footer>
